@@ -1,0 +1,32 @@
+﻿<Window x:Class="QuranPresenter.options"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="options" Height="300" Width="800" Loaded="Window_Loaded_1">
+    
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Label Grid.Column="0" Grid.Row="0" Content="Background Color"></Label>
+        <ComboBox Grid.Column="1" Grid.Row="0" x:Name="backgroundColor" IsEditable="True" ItemsSource="{Binding Source={StaticResource colorPropertiesOdp}}" DisplayMemberPath="Name" SelectedValuePath="Name" SelectionChanged="backgroundColor_SelectionChanged" Text="{Binding Path=BackgroundColor}" />
+        <Label Grid.Column="0" Grid.Row="1" Content="Foreground Color"></Label>
+        <ComboBox Grid.Column="1" Grid.Row="1" x:Name="foregroundColor" IsEditable="True" ItemsSource="{Binding Source={StaticResource colorPropertiesOdp}}" DisplayMemberPath="Name" SelectedValuePath="Name" SelectionChanged="foregroundColor_SelectionChanged" Text="{Binding Path=ForegroundColor}" />
+        <Label Grid.Column="0" Grid.Row="2" Content="opacity"></Label>
+        <ComboBox Grid.Column="1" Grid.Row="2" x:Name="opacityComboBox" IsEditable="True" SelectionChanged="opacity_SelectionChanged" Text="{Binding Path=Opacity}" />
+        <Label Grid.Column="0" Grid.Row="3" Content="Gridlines"></Label>
+        <ComboBox Grid.Column="1" Grid.Row="3" x:Name="gridlinesComboBox" IsEditable="True" SelectionChanged="gridlinesComboBox_SelectionChanged" Text="{Binding Path=Gridlines}"/>
+        <Label Grid.Column="0" Grid.Row="4" Content="Highlighter Color"></Label>
+        <ComboBox Grid.Column="1" Grid.Row="4" x:Name="highlighterComboBox" IsEditable="True" ItemsSource="{Binding Source={StaticResource colorPropertiesOdp}}" DisplayMemberPath="Name" SelectedValuePath="Name" SelectionChanged="highlighterComboBox_SelectionChanged" Text="{Binding Path=Highlighter}" />
+        <Label Grid.Column="0" Grid.Row="5" Content="Change BackGround Imageopacity\n(opacity less than 1)"></Label>
+        <Button Grid.Column="1" Grid.Row="5" x:Name="selectImageLink" Content="Browse" Click="selectImageLink_Click" />
+    </Grid>
+</Window>

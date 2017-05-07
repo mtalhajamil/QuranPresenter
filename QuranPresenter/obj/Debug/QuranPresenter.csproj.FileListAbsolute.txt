@@ -1,0 +1,97 @@
+c:\users\muhammad\documents\visual studio 2012\Projects\QuranPresenter\QuranPresenter\bin\Debug\QuranPresenter.exe.config
+c:\users\muhammad\documents\visual studio 2012\Projects\QuranPresenter\QuranPresenter\bin\Debug\QuranPresenter.exe
+c:\users\muhammad\documents\visual studio 2012\Projects\QuranPresenter\QuranPresenter\bin\Debug\QuranPresenter.pdb
+c:\users\muhammad\documents\visual studio 2012\Projects\QuranPresenter\QuranPresenter\obj\Debug\QuranPresenter.csprojResolveAssemblyReference.cache
+c:\users\muhammad\documents\visual studio 2012\Projects\QuranPresenter\QuranPresenter\obj\Debug\MainWindow.baml
+c:\users\muhammad\documents\visual studio 2012\Projects\QuranPresenter\QuranPresenter\obj\Debug\MainWindow.g.cs
+c:\users\muhammad\documents\visual studio 2012\Projects\QuranPresenter\QuranPresenter\obj\Debug\App.g.cs
+c:\users\muhammad\documents\visual studio 2012\Projects\QuranPresenter\QuranPresenter\obj\Debug\QuranPresenter_MarkupCompile.cache
+c:\users\muhammad\documents\visual studio 2012\Projects\QuranPresenter\QuranPresenter\obj\Debug\QuranPresenter.g.resources
+c:\users\muhammad\documents\visual studio 2012\Projects\QuranPresenter\QuranPresenter\obj\Debug\QuranPresenter.Properties.Resources.resources
+c:\users\muhammad\documents\visual studio 2012\Projects\QuranPresenter\QuranPresenter\obj\Debug\QuranPresenter.csproj.GenerateResource.Cache
+c:\users\muhammad\documents\visual studio 2012\Projects\QuranPresenter\QuranPresenter\obj\Debug\QuranPresenter.exe
+c:\users\muhammad\documents\visual studio 2012\Projects\QuranPresenter\QuranPresenter\obj\Debug\QuranPresenter.pdb
+F:\Downloads\QuranPresenter\Backup\2\QuranPresenter\QuranPresenter\bin\Debug\QuranPresenter.exe.config
+F:\Downloads\QuranPresenter\Backup\2\QuranPresenter\QuranPresenter\obj\Debug\QuranPresenter.exe
+F:\Downloads\QuranPresenter\Backup\2\QuranPresenter\QuranPresenter\obj\Debug\QuranPresenter.pdb
+C:\Users\Muhammad\Documents\Visual Studio 2013\Projects\QuranPresenter\QuranPresenter\bin\Debug\QuranDB.accdb
+C:\Users\Muhammad\Documents\Visual Studio 2013\Projects\QuranPresenter\QuranPresenter\bin\Debug\QuranPresenter.exe.config
+C:\Users\Muhammad\Documents\Visual Studio 2013\Projects\QuranPresenter\QuranPresenter\bin\Debug\QuranPresenter.exe.manifest
+C:\Users\Muhammad\Documents\Visual Studio 2013\Projects\QuranPresenter\QuranPresenter\bin\Debug\QuranPresenter.application
+C:\Users\Muhammad\Documents\Visual Studio 2013\Projects\QuranPresenter\QuranPresenter\bin\Debug\QuranPresenter.exe
+C:\Users\Muhammad\Documents\Visual Studio 2013\Projects\QuranPresenter\QuranPresenter\bin\Debug\QuranPresenter.pdb
+C:\Users\Muhammad\Documents\Visual Studio 2013\Projects\QuranPresenter\QuranPresenter\bin\Debug\EntityFramework.dll
+C:\Users\Muhammad\Documents\Visual Studio 2013\Projects\QuranPresenter\QuranPresenter\bin\Debug\log4net.dll
+C:\Users\Muhammad\Documents\Visual Studio 2013\Projects\QuranPresenter\QuranPresenter\bin\Debug\EntityFramework.xml
+C:\Users\Muhammad\Documents\Visual Studio 2013\Projects\QuranPresenter\QuranPresenter\bin\Debug\log4net.pdb
+C:\Users\Muhammad\Documents\Visual Studio 2013\Projects\QuranPresenter\QuranPresenter\bin\Debug\log4net.xml
+C:\Users\Muhammad\Documents\Visual Studio 2013\Projects\QuranPresenter\QuranPresenter\obj\Debug\announcement.baml
+C:\Users\Muhammad\Documents\Visual Studio 2013\Projects\QuranPresenter\QuranPresenter\obj\Debug\displayImage.baml
+C:\Users\Muhammad\Documents\Visual Studio 2013\Projects\QuranPresenter\QuranPresenter\obj\Debug\imageList.baml
+C:\Users\Muhammad\Documents\Visual Studio 2013\Projects\QuranPresenter\QuranPresenter\obj\Debug\logs.baml
+C:\Users\Muhammad\Documents\Visual Studio 2013\Projects\QuranPresenter\QuranPresenter\obj\Debug\options.baml
+C:\Users\Muhammad\Documents\Visual Studio 2013\Projects\QuranPresenter\QuranPresenter\obj\Debug\startup.baml
+C:\Users\Muhammad\Documents\Visual Studio 2013\Projects\QuranPresenter\QuranPresenter\obj\Debug\App.baml
+C:\Users\Muhammad\Documents\Visual Studio 2013\Projects\QuranPresenter\QuranPresenter\obj\Debug\announcement.g.cs
+C:\Users\Muhammad\Documents\Visual Studio 2013\Projects\QuranPresenter\QuranPresenter\obj\Debug\ayatDisplay.g.cs
+C:\Users\Muhammad\Documents\Visual Studio 2013\Projects\QuranPresenter\QuranPresenter\obj\Debug\displayImage.g.cs
+C:\Users\Muhammad\Documents\Visual Studio 2013\Projects\QuranPresenter\QuranPresenter\obj\Debug\imageList.g.cs
+C:\Users\Muhammad\Documents\Visual Studio 2013\Projects\QuranPresenter\QuranPresenter\obj\Debug\index.g.cs
+C:\Users\Muhammad\Documents\Visual Studio 2013\Projects\QuranPresenter\QuranPresenter\obj\Debug\logs.g.cs
+C:\Users\Muhammad\Documents\Visual Studio 2013\Projects\QuranPresenter\QuranPresenter\obj\Debug\options.g.cs
+C:\Users\Muhammad\Documents\Visual Studio 2013\Projects\QuranPresenter\QuranPresenter\obj\Debug\startup.g.cs
+C:\Users\Muhammad\Documents\Visual Studio 2013\Projects\QuranPresenter\QuranPresenter\obj\Debug\App.g.cs
+C:\Users\Muhammad\Documents\Visual Studio 2013\Projects\QuranPresenter\QuranPresenter\obj\Debug\QuranPresenter_Content.g.cs
+C:\Users\Muhammad\Documents\Visual Studio 2013\Projects\QuranPresenter\QuranPresenter\obj\Debug\QuranPresenter_MarkupCompile.cache
+C:\Users\Muhammad\Documents\Visual Studio 2013\Projects\QuranPresenter\QuranPresenter\obj\Debug\QuranPresenter_MarkupCompile.lref
+C:\Users\Muhammad\Documents\Visual Studio 2013\Projects\QuranPresenter\QuranPresenter\obj\Debug\ayatDisplay.baml
+C:\Users\Muhammad\Documents\Visual Studio 2013\Projects\QuranPresenter\QuranPresenter\obj\Debug\index.baml
+C:\Users\Muhammad\Documents\Visual Studio 2013\Projects\QuranPresenter\QuranPresenter\obj\Debug\QuranPresenter.g.resources
+C:\Users\Muhammad\Documents\Visual Studio 2013\Projects\QuranPresenter\QuranPresenter\obj\Debug\QuranPresenter.Properties.Resources.resources
+C:\Users\Muhammad\Documents\Visual Studio 2013\Projects\QuranPresenter\QuranPresenter\obj\Debug\QuranPresenter.csproj.GenerateResource.Cache
+C:\Users\Muhammad\Documents\Visual Studio 2013\Projects\QuranPresenter\QuranPresenter\obj\Debug\QuranPresenter.exe.manifest
+C:\Users\Muhammad\Documents\Visual Studio 2013\Projects\QuranPresenter\QuranPresenter\obj\Debug\QuranPresenter.application
+C:\Users\Muhammad\Documents\Visual Studio 2013\Projects\QuranPresenter\QuranPresenter\obj\Debug\QuranPresenter.exe
+C:\Users\Muhammad\Documents\Visual Studio 2013\Projects\QuranPresenter\QuranPresenter\obj\Debug\QuranPresenter.pdb
+C:\Users\Muhammad\Documents\Visual Studio 2013\Projects\QuranPresenter\QuranPresenter\obj\Debug\QuranPresenter.csprojResolveAssemblyReference.cache
+C:\Users\Muhammad\Documents\Visual Studio 2013\Projects\QuranPresenter\QuranPresenter\obj\Debug\ShortCuts.baml
+C:\Users\Muhammad\Documents\Visual Studio 2013\Projects\QuranPresenter\QuranPresenter\obj\Debug\ShortCuts.g.cs
+F:\Software Development\QuranPresenter\QuranPresenter\bin\Debug\QuranPresenter.exe.config
+F:\Software Development\QuranPresenter\QuranPresenter\obj\Debug\QuranPresenter.exe
+F:\Software Development\QuranPresenter\QuranPresenter\obj\Debug\QuranPresenter.pdb
+F:\Software Development\QuranPresenter\QuranPresenter\bin\Debug\QuranDB.accdb
+F:\Software Development\QuranPresenter\QuranPresenter\bin\Debug\QuranPresenter.exe.manifest
+F:\Software Development\QuranPresenter\QuranPresenter\bin\Debug\QuranPresenter.application
+F:\Software Development\QuranPresenter\QuranPresenter\bin\Debug\QuranPresenter.exe
+F:\Software Development\QuranPresenter\QuranPresenter\bin\Debug\QuranPresenter.pdb
+F:\Software Development\QuranPresenter\QuranPresenter\bin\Debug\EntityFramework.dll
+F:\Software Development\QuranPresenter\QuranPresenter\bin\Debug\EntityFramework.xml
+F:\Software Development\QuranPresenter\QuranPresenter\obj\Debug\announcement.baml
+F:\Software Development\QuranPresenter\QuranPresenter\obj\Debug\displayImage.baml
+F:\Software Development\QuranPresenter\QuranPresenter\obj\Debug\imageList.baml
+F:\Software Development\QuranPresenter\QuranPresenter\obj\Debug\logs.baml
+F:\Software Development\QuranPresenter\QuranPresenter\obj\Debug\options.baml
+F:\Software Development\QuranPresenter\QuranPresenter\obj\Debug\shortcuts.baml
+F:\Software Development\QuranPresenter\QuranPresenter\obj\Debug\startup.baml
+F:\Software Development\QuranPresenter\QuranPresenter\obj\Debug\App.baml
+F:\Software Development\QuranPresenter\QuranPresenter\obj\Debug\announcement.g.cs
+F:\Software Development\QuranPresenter\QuranPresenter\obj\Debug\ayatDisplay.g.cs
+F:\Software Development\QuranPresenter\QuranPresenter\obj\Debug\displayImage.g.cs
+F:\Software Development\QuranPresenter\QuranPresenter\obj\Debug\imageList.g.cs
+F:\Software Development\QuranPresenter\QuranPresenter\obj\Debug\index.g.cs
+F:\Software Development\QuranPresenter\QuranPresenter\obj\Debug\logs.g.cs
+F:\Software Development\QuranPresenter\QuranPresenter\obj\Debug\options.g.cs
+F:\Software Development\QuranPresenter\QuranPresenter\obj\Debug\shortcuts.g.cs
+F:\Software Development\QuranPresenter\QuranPresenter\obj\Debug\startup.g.cs
+F:\Software Development\QuranPresenter\QuranPresenter\obj\Debug\App.g.cs
+F:\Software Development\QuranPresenter\QuranPresenter\obj\Debug\QuranPresenter_Content.g.cs
+F:\Software Development\QuranPresenter\QuranPresenter\obj\Debug\QuranPresenter_MarkupCompile.cache
+F:\Software Development\QuranPresenter\QuranPresenter\obj\Debug\QuranPresenter_MarkupCompile.lref
+F:\Software Development\QuranPresenter\QuranPresenter\obj\Debug\ayatDisplay.baml
+F:\Software Development\QuranPresenter\QuranPresenter\obj\Debug\index.baml
+F:\Software Development\QuranPresenter\QuranPresenter\obj\Debug\QuranPresenter.g.resources
+F:\Software Development\QuranPresenter\QuranPresenter\obj\Debug\QuranPresenter.Properties.Resources.resources
+F:\Software Development\QuranPresenter\QuranPresenter\obj\Debug\QuranPresenter.csproj.GenerateResource.Cache
+F:\Software Development\QuranPresenter\QuranPresenter\obj\Debug\QuranPresenter.exe.manifest
+F:\Software Development\QuranPresenter\QuranPresenter\obj\Debug\QuranPresenter.application
+F:\Software Development\QuranPresenter\QuranPresenter\obj\Debug\QuranPresenter.csprojResolveAssemblyReference.cache

@@ -1,0 +1,182 @@
+﻿<Window x:Class="QuranPresenter.index"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:QuranPresenter"
+        Title="MainPage" Name="MainPage" Height="350" Width="525" WindowStyle="None" WindowState="Maximized" ResizeMode="NoResize" KeyDown="Window_KeyDown_1">
+    <Window.Resources>
+        <Style x:Key="DetailStyle">
+            <Setter Property="TextElement.FontFamily" Value="Adobe Caslon Pro"></Setter>
+            <Setter Property="TextElement.FontSize" Value="18"></Setter>
+        </Style>
+
+    </Window.Resources>
+    <Window.CommandBindings>
+        <CommandBinding Command="{x:Static local:index.Resize}" Executed="ResizeCommand"/>
+    </Window.CommandBindings>
+
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="5"></ColumnDefinition>
+            <ColumnDefinition Width="300"></ColumnDefinition>
+            <ColumnDefinition Width="150"></ColumnDefinition>
+            <ColumnDefinition Width="125" ></ColumnDefinition>
+            <ColumnDefinition Width="125" ></ColumnDefinition>
+            <ColumnDefinition Width="125"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="5"></ColumnDefinition>
+
+        </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="Resources/index.jpg" Stretch="None" Opacity="0.5" />
+        </Grid.Background>
+
+
+        <DataGrid x:Name="surahNameView" Grid.Column="1" Background="#4CF0F0F0" RowBackground="#4CF0F0F0" IsReadOnly="True" BorderThickness="0" GridLinesVisibility="None"  FontSize="24" AutoGenerateColumns="False" PreviewKeyDown="surahNameView_PreviewKeyDown_1" MouseDown="surahNameView_MouseDown_1" SelectionChanged="surahNameView_SelectionChanged" FontFamily="/QuranPresenter;component/Resources/#Muhammadi Font">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding SurahNo}" Header="Surah Number"/>
+                <DataGridTextColumn Binding="{Binding SurahName}" Header="Surah Name" Width="*">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="HorizontalAlignment" Value="Center" />
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+                </DataGrid.Columns>
+        </DataGrid>
+        <DataGrid x:Name="parahView" Grid.Column="2" Background="#4CF0F0F0" RowBackground="#4CF0F0F0" IsReadOnly="True" BorderThickness="0" GridLinesVisibility="None" FontFamily="/QuranPresenter;component/Resources/#Muhammadi Font" FontSize="24" AutoGenerateColumns="False" PreviewKeyDown="parahView_PreviewKeyDown_1" MouseDown="parahView_MouseDown_1" SelectionChanged="parahView_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding ParahNo}" Header="Parah Number" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <DataGrid x:Name="manzilView" Grid.Column="3" Background="#4CF0F0F0" RowBackground="#4CF0F0F0" IsReadOnly="True" BorderThickness="0" GridLinesVisibility="None" FontFamily="/QuranPresenter;component/Resources/#Muhammadi Font" FontSize="24" AutoGenerateColumns="False" PreviewKeyDown="manzilView_PreviewKeyDown_1" MouseDown="manzilView_MouseDown_1" SelectionChanged="manzilView_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Manzil}" Header="Manzil Number" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <DataGrid x:Name="hizbView" Grid.Column="4" Background="#4CF0F0F0" RowBackground="#4CF0F0F0" IsReadOnly="True" BorderThickness="0" GridLinesVisibility="None" FontFamily="/QuranPresenter;component/Resources/#Muhammadi Font" FontSize="24" AutoGenerateColumns="False" PreviewKeyDown="hizbView_PreviewKeyDown_1" MouseDown="hizbView_MouseDown_1" SelectionChanged="hizbView_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Hizb}" Header="Hizb Number" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <DataGrid x:Name="totalAyatView" Grid.Column="5" Background="#4CF0F0F0" RowBackground="#4CF0F0F0" IsReadOnly="True" BorderThickness="0" GridLinesVisibility="None" FontFamily="/QuranPresenter;component/Resources/#Muhammadi Font" FontSize="24" AutoGenerateColumns="False" PreviewKeyDown="totalAyatView_PreviewKeyDown_1" MouseDown="totalAyatView_MouseDown_1" SelectionChanged="totalAyatView_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding RecordNo}" Header="Ayat Number" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+
+        <StackPanel Orientation="Vertical" Grid.Column="6" Margin="5">
+
+            <Label Height="50"></Label>
+            <Border BorderBrush="Black" BorderThickness=".5">
+                <Grid >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"></RowDefinition>
+                        <RowDefinition Height="auto"></RowDefinition>
+                        <RowDefinition Height="auto"></RowDefinition>
+                        <RowDefinition Height="auto"></RowDefinition>
+                        <RowDefinition Height="auto"></RowDefinition>
+                        <RowDefinition Height="auto"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Label Grid.Column="0" Grid.Row="0" Style="{DynamicResource DetailStyle}">Surah Name:</Label>
+                    <Label Grid.Column="1" Grid.Row="0" Style="{DynamicResource DetailStyle}" Name="DetailSurahName" FontFamily="/QuranPresenter;component/Resources/#Muhammadi Font"></Label>
+                    <Label Grid.Column="0" Grid.Row="1" Style="{DynamicResource DetailStyle}">Ayat Number:</Label>
+                    <Label Grid.Column="1" Grid.Row="1" Style="{DynamicResource DetailStyle}" Name="DetailAyatNo"></Label>
+                    <Label Grid.Column="0" Grid.Row="2" Style="{DynamicResource DetailStyle}">Ruku Number:</Label>
+                    <Label Grid.Column="1" Grid.Row="2" Style="{DynamicResource DetailStyle}" Name="DetailRukuNo"></Label>
+                    <Label Grid.Column="0" Grid.Row="3" Style="{DynamicResource DetailStyle}">Parah Number:</Label>
+                    <Label Grid.Column="1" Grid.Row="3" Style="{DynamicResource DetailStyle}" Name="DetailParahNo"></Label>
+                    <Label Grid.Column="0" Grid.Row="4" Style="{DynamicResource DetailStyle}">Total Ayats In This Surah:</Label>
+                    <Label Grid.Column="1" Grid.Row="4" Style="{DynamicResource DetailStyle}" Name="DetailTotalAyat"></Label>
+                </Grid>
+            </Border>
+            <Button Content="Start From Last State" Margin="0,5,0,0" Padding="5" Click="Button_Click_1" FontSize="18"   FontFamily="Nyala" BorderThickness="0" Background="#4429E816" Foreground="Black" FontWeight="Bold" >
+                <Button.Style>
+                    <Style TargetType="{x:Type Button}">
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="False">
+                                <Setter Property="Background" Value="Transparent" />
+                                <Setter Property="Foreground" Value="Black" />
+                                <Setter Property="Opacity" Value="1.0" />
+                            </Trigger>
+                            <EventTrigger RoutedEvent="MouseLeave">
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.2" To="1"></DoubleAnimation>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </EventTrigger>
+                            <EventTrigger RoutedEvent="MouseEnter">
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.2" To="0.8"></DoubleAnimation>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </EventTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+            </Button>
+            <Button Content="See Logs" Margin="0,5,0,0" Padding="5" Click="Button_Click_2" FontSize="18"   FontFamily="Nyala" BorderThickness="0" Background="#4429E816" Foreground="Black" FontWeight="Bold" >
+                <Button.Style>
+                    <Style TargetType="{x:Type Button}">
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="False">
+                                <Setter Property="Background" Value="Transparent" />
+                                <Setter Property="Foreground" Value="Black" />
+                                <Setter Property="Opacity" Value="1.0" />
+                            </Trigger>
+                            <EventTrigger RoutedEvent="MouseLeave">
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.2" To="1"></DoubleAnimation>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </EventTrigger>
+                            <EventTrigger RoutedEvent="MouseEnter">
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.2" To="0.8"></DoubleAnimation>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </EventTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+            </Button>
+            <Button Content="View HotKeys" Margin="0,5,0,0" Padding="5" Click="Button_Click_3" FontSize="18"   FontFamily="Nyala" BorderThickness="0" Background="#4429E816" Foreground="Black" FontWeight="Bold" >
+                <Button.Style>
+                    <Style TargetType="{x:Type Button}">
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="False">
+                                <Setter Property="Background" Value="Transparent" />
+                                <Setter Property="Foreground" Value="Black" />
+                                <Setter Property="Opacity" Value="1.0" />
+                            </Trigger>
+                            <EventTrigger RoutedEvent="MouseLeave">
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.2" To="1"></DoubleAnimation>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </EventTrigger>
+                            <EventTrigger RoutedEvent="MouseEnter">
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.2" To="0.8"></DoubleAnimation>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </EventTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+            </Button>
+        </StackPanel>
+    </Grid>
+
+</Window>

@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuranPresenter", "QuranPresenter\QuranPresenter.csproj", "{22929648-C9AA-4C1F-8BA7-761D71BD8663}"
+EndProject
+Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "Setup2", "Setup2\Setup2.isproj", "{15C97E83-637B-4237-8344-1C8158DE766B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{22929648-C9AA-4C1F-8BA7-761D71BD8663} = {22929648-C9AA-4C1F-8BA7-761D71BD8663}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|Any CPU = CD_ROM|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		DVD-5|Any CPU = DVD-5|Any CPU
+		Release|Any CPU = Release|Any CPU
+		SingleImage|Any CPU = SingleImage|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22929648-C9AA-4C1F-8BA7-761D71BD8663}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{22929648-C9AA-4C1F-8BA7-761D71BD8663}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{22929648-C9AA-4C1F-8BA7-761D71BD8663}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22929648-C9AA-4C1F-8BA7-761D71BD8663}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22929648-C9AA-4C1F-8BA7-761D71BD8663}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{22929648-C9AA-4C1F-8BA7-761D71BD8663}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{22929648-C9AA-4C1F-8BA7-761D71BD8663}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22929648-C9AA-4C1F-8BA7-761D71BD8663}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22929648-C9AA-4C1F-8BA7-761D71BD8663}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{22929648-C9AA-4C1F-8BA7-761D71BD8663}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{15C97E83-637B-4237-8344-1C8158DE766B}.CD_ROM|Any CPU.ActiveCfg = CD_ROM
+		{15C97E83-637B-4237-8344-1C8158DE766B}.CD_ROM|Any CPU.Build.0 = CD_ROM
+		{15C97E83-637B-4237-8344-1C8158DE766B}.Debug|Any CPU.ActiveCfg = SingleImage
+		{15C97E83-637B-4237-8344-1C8158DE766B}.Debug|Any CPU.Build.0 = SingleImage
+		{15C97E83-637B-4237-8344-1C8158DE766B}.DVD-5|Any CPU.ActiveCfg = DVD-5
+		{15C97E83-637B-4237-8344-1C8158DE766B}.DVD-5|Any CPU.Build.0 = DVD-5
+		{15C97E83-637B-4237-8344-1C8158DE766B}.Release|Any CPU.ActiveCfg = SingleImage
+		{15C97E83-637B-4237-8344-1C8158DE766B}.Release|Any CPU.Build.0 = SingleImage
+		{15C97E83-637B-4237-8344-1C8158DE766B}.SingleImage|Any CPU.ActiveCfg = SingleImage
+		{15C97E83-637B-4237-8344-1C8158DE766B}.SingleImage|Any CPU.Build.0 = SingleImage
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

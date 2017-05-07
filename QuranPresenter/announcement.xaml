@@ -1,0 +1,15 @@
+﻿<Window x:Class="QuranPresenter.announcement"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="announcement" Height="300" Width="500" WindowStartupLocation="CenterScreen" KeyDown="Window_KeyDown_1" WindowStyle="None" WindowState="Maximized">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="{Binding Path=ImageLink}" Stretch="None" Opacity="0.5" />
+        </Grid.Background>
+        <DockPanel LastChildFill="True">
+            
+            <TextBlock Name="displayAnnounce"  FontSize="50" HorizontalAlignment="Stretch" TextAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Background="#7F62E408" FontFamily="/QuranPresenter;component/Resources/#Alvi Nastaleeq"></TextBlock>
+            
+        </DockPanel>
+    </Grid>
+</Window>

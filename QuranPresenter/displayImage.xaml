@@ -1,0 +1,9 @@
+﻿<Window x:Class="QuranPresenter.displayImage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="displayImage" WindowStyle="None" WindowState="Maximized" KeyDown="Window_KeyDown_1">
+    <Grid>
+        <Image x:Name="pictureBox1" Height="auto" HorizontalAlignment="Center" VerticalAlignment="Center" Width="auto" OpacityMask="Black"/>
+
+    </Grid>
+</Window>

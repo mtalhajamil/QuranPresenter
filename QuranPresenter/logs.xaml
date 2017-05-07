@@ -1,0 +1,25 @@
+﻿<Window x:Class="QuranPresenter.logs"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="logs" Height="350" Width="525" WindowStyle="None" WindowState="Maximized" ResizeMode="NoResize" KeyDown="Window_KeyDown_1">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+        </Grid.RowDefinitions>
+        
+        <DataGrid Name="logView" FontFamily="Adobe Garamond Pro" FontSize="24" IsReadOnly="True" AutoGenerateColumns="False" Grid.Row="0">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding sNo}" Header="Serial Number"/>
+                <DataGridTextColumn Binding="{Binding surahNo}" Header="Surah Number"/>
+                <DataGridTextColumn Binding="{Binding ayatNo}" Header="Ayat Number"/>
+                <DataGridTextColumn Binding="{Binding stateTime}" Header="Time" Width="*"/>
+                <DataGridTextColumn Binding="{Binding stateDate}" Header="Date" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Content="Clear Logs" Grid.Row="1" Margin="0,5,0,0" Padding="5" Click="Button_Click_1" FontSize="18"   FontFamily="Nyala" BorderThickness="0" Foreground="#FF4E6B76" Background="#7F13D4A0" >
+        </Button>
+        
+        
+    </Grid>
+</Window>
